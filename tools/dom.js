@@ -30,13 +30,13 @@
     //1. 태그 만들기
     // for(let i=1; i<=6;i++){ 
     //   //템플릿문자열
-    // tag = tag + `<div class=divmsg><img src="tools/image/${i}.png"></img></div>`
+    // tag = tag + `<div class=divmsg><img src="./tools/image/${i}.png"></img></div>`
     // // `<div class="divMsg">${i}</div>`
     //    console.log(i)
     // }
     
     let i = Math.floor(Math.random() * 6 + 1);
-    tag = tag + `<div class=divmsg><img src="tools/image/${i}.png" ></img id="msgImg"></div>`
+    tag = tag + `<div class=divmsg><img src="./tools/image/${i}.png" ></img id="msgImg"></div>`
     // `<div class="divMsg">${i}</div>`
        console.log(i)
 
